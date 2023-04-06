@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  backend:
+    build: ./backend
+    depends_on:
+      - mongo
+    env_file: 
+      - ./env/api.env
+    # environment:
+    #   - PORT=3000
+    #   - MONGODB_CNN=mongodb://mongo:27017/test
+    ports:
+      - "80:80"
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+  front:
+    build: ./frontend
+    ports:
+      - "9999:9999"
+    volumes: 
+      - ./frontend/src:/app/src
+    stdin_open: true
+    tty: true
+    depends_on: 
+      - backend
