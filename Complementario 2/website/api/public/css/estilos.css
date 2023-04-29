@@ -1,0 +1,55 @@
+
+.navbar-brand{
+    align-content: center;
+    /* padding: 1em; */
+    color:white;
+    font-size: 50px;
+    font-family:  Verdana, sans-serif;
+}
+
+.header{
+background: url(../images/car2.jpg) no-repeat center;
+background-size: cover;
+min-height: 100vh;
+}
+.frase{
+    text-align: center;
+    font-family: Comic Sans MS,Arial,Verdana;
+}
+
+.header .navbar  {
+    background-color: transparent !important;
+}
+.nav-link{
+    align-content: center;
+    color: rgb(0, 0, 0);
+    font-family: impact;
+    font-size: 19px;
+    line-height: 70%;
+    letter-spacing: 3px;
+}
+.login{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14%;
+}
+/*  .dropdown-toggle{ 
+    align-content: center;
+     padding: 1em; 
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+} */
+.text-dark{
+    text-align: center;
+    color: black;
+}
+.card-group{
+    margin: 100px 25px;
+}
+.foot{
+    font-size: 25px;
+}
+.nav-item{
+    text-align: center;
+    padding-top: 10px;
+
+}

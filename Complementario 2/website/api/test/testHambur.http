@@ -1,0 +1,29 @@
+post http://localhost:5000/v1/api/hambur
+content-type: application/json
+
+{
+    "orden": "55",
+    "nombre": "Coca-Cola",
+    "precio": "1.00",
+    "descripcion": "bebida de 500ml"
+}
+
+###
+patch http://localhost:5000/v1/api/hambur/61218ab61d3579292c8660b2
+content-type: application/json
+
+{
+    "orden": "48",
+    "nombre": "Salchipapa Mixta",
+    "precio": "4.00",
+    "descripcion": "La salchipapa contiene doble porcion de papas"
+}
+
+###
+get http://localhost:5000/v1/api/hambur
+
+###
+get http://localhost:5000/v1/api/hambur/61218ab61d3579292c8660b2
+
+###
+delete http://localhost:5000/v1/api/hambur/61218ab61d3579292c8660b2

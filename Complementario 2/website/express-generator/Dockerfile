@@ -1,0 +1,8 @@
+FROM node
+
+WORKDIR /app
+
+ENV PORT 3033
+EXPOSE 3033
+
+ENTRYPOINT [ "npm" ]

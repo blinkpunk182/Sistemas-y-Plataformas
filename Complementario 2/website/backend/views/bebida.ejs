@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <%- include('partials/_header') %>
+</head>
+
+<body>
+  <%- include('partials/_nav') %>
+    <section class="container pt-4 mt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4 text-center">
+            <h3>Lista de Bebidas</h3>
+          </div>
+          <div class="col-sm-4 text-right">
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#nuevo">
+              <i class="fa fa-plus"></i> Nueva orden de Bebidas
+            </button>
+          </div>
+        </div>
+        <hr>
+        <div class="modal fade" id="nuevo" tabindex="-1" aria-labelledby="nuevoLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <form method="POST" action="/anadir" >
+                <div class="modal-header">
+                  <h5 class="modal-title" id="nuevoLabel">Nueva Orden de Bebidas</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                   
+                <div class="modal-body">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Numero de orden</label>
+                    <input type="text" class="form-control" name="orden" id= "orden" required="required">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" required="required">
+                  </div>
+                               
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Precio</label>
+                    <input type="text" class="form-control" name="precio" id="precio" required="required">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Cantidad</label>
+                    <input type="celular" class="form-control" name="cantidad" id= "cantidad" required="required">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="submit" name="nuevo" class="btn btn-primary">Guardar <i
+                      class="fas fa-save"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4">
+            <div id="div1" class="col-sm-12">
+              <table id="example1" class="dataTable table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th> 
+                       <img src="images/icons/user.png" width="20px" height="20px"
+                                              class="d-inline-block align-top" alt=""> 
+                    </th> 
+                    <th>Orden</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                   
+                  </tr>
+                </thead>
+                <tbody>
+                  <% for(var i = 0; i < bebida.length; i++){ %>
+                    <tr>
+                      <td><%= i + 1 %></td>
+                      <td><%= bebida[i].orden %></td>
+                      <td><%= bebida[i].nombre %></td>
+                      <td><%= bebida[i].precio %></td>
+                      <td><%= bebida[i].cantidad %></td>
+
+                    </tr>
+                  <% } %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="p-1 mb-2  btn-dark  text-white" align="center"><strong class="foot"> Comidas Rapidas "HAMBURGER"</strong></div>
+</body>
+
+</html>
