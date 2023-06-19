@@ -1,21 +1,21 @@
 ##INSUMOS DE ENCUESTA
-![insumos](./evidencias/base-de-datos.png)
+![insumos](./evidencias/base-de-datos.PNG)
 
-![insumos](./evidencias/create-insumos.png)
+![insumos](./evidencias/create-insumos.PNG)
 
-![insumos](./evidencias/entidadinsumo.png)
+![insumos](./evidencias/entidadinsumo.PNG)
 
-![insumos](./evidencias/entidades.png)
+![insumos](./evidencias/entidades.PNG)
 
-![insumos](./evidencias/example-query.png)
+![insumos](./evidencias/example-query.PNG)
 
-![insumos](./evidencias/insumos-remove.png)
+![insumos](./evidencias/insumos-remove.PNG)
 
-![insumos](./evidencias/remove.png)
+![insumos](./evidencias/remove.PNG)
 
-![insumos](./evidencias/update.png)
+![insumos](./evidencias/update.PNG)
 
-![insumos](./evidencias/update-insumos.png)
+![insumos](./evidencias/update-insumos.PNG)
 
 
   
