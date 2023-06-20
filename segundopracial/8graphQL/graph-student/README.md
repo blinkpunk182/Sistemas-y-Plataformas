@@ -1,21 +1,29 @@
-##INSUMOS DE ENCUESTA
-![insumos](./evidencias/base-de-datos.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/base-de-datos.png)
 
-![insumos](./evidencias/create-insumos.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/create-insumos.png)
 
-![insumos](./evidencias/entidadinsumo.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/entidad-insumo.png)
 
-![insumos](./evidencias/entidades.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/entidades.png)
 
-![insumos](./evidencias/example-query.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/example-query.png)
 
-![insumos](./evidencias/insumos-remove.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/insumos-remove.png)
 
-![insumos](./evidencias/remove.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/remove.png)
 
-![insumos](./evidencias/update.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/update.png)
 
-![insumos](./evidencias/update-insumos.png)
+## INSUMOS DE ENCUESTA
+![Dockerfile backend](./evidencias/update-insumos.png)
 
 
   
